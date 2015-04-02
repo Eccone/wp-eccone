@@ -1,0 +1,6 @@
+@import url(../../../../openbootpress/resources/public/css/typography.css);
+
+/* --- others --- */
+.content-area strong {
+	color: #000; font-weight: bold;
+}
