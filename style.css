@@ -19,6 +19,28 @@ Version:        0.1.0
 	background-color: #EEE;
 }
 
+/* ACCUEIL PRESENTE ECCONE */
+.eccone-howto {
+	background-color: #E30976;
+	padding-top: 1em; padding-bottom: 1em;
+}
+.eccone-howto * {
+	color: #fff;
+	text-align: center;
+}
+.eccone-howto h2 strong {
+	display: block;
+}
+.eccone-howto h2 .glyphicon, .eccone-howto h2 .fa {
+	font-size: 48px; display: inline-block; margin-top: 10px; margin-bottom: 10px;
+}
+
+/* ACCUEIL FOOTER */
+.home #page > footer {
+	background-color: #fff;
+}
+
+/* FLEX VIDEO */
 .flex-video {
 	position: relative;
 	padding-top: 25px;

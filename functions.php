@@ -1,5 +1,5 @@
 <?php
-define('THEME_VERSION', '1.0.3');
+define('THEME_VERSION', '1.1.0');
 
 $eccone_box_prefix = 'ECCONE_BOX_';
 

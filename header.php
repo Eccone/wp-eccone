@@ -25,16 +25,26 @@
 	<title><?php wp_title('|', true, 'right'); ?></title>
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 	<!--[if lt IE 9]>
-	<script src="<?php echo get_template_directory_uri(); ?>/bootstrap/js/html5.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/plugins/html5.js"></script>
 	<![endif]-->
 	<?php
 	wp_head(); ?>
+	<link rel="stylesheet" href="<?php echo openbootpress_get_resource_uri('public/font-awesome-4.3.0/css/font-awesome.min.css'); ?>">
 	<!--[if IE 8]>
-	<script src="<?php echo get_template_directory_uri(); ?>/bootstrap/js/respond.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/plugins/respond/respond.min.js"></script>
 	<![endif]-->
 </head>
 
 <body <?php body_class(); ?>>
+	<!---//Facebook button code-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 	<div id="page" class="hfeed site">
 		<div id="header">
 			<header id="masthead" class="container site-header" role="banner">
@@ -45,11 +55,9 @@
 				</div>
 				<div class="network">
 					<ul>
-						<li><a href="https://www.facebook.com/eccone" target="_blank" title="<?php echo esc_attr(__('Page Facebook Eccone'));?>" data-toggle="tooltip"><img src="<?php echo openbootpress_get_resource_uri('public/images/network/facebook.png'); ?>" alt="<?php echo esc_attr(__('Page Facebook Eccone')); ?>" /></a></li>
-						<li><a href="https://twitter.com/eccone_org" target="_blank" title="<?php echo esc_attr(__('Twitter'));?>" data-toggle="tooltip"><img src="<?php echo openbootpress_get_resource_uri('public/images/network/twitter.png'); ?>" alt="<?php echo esc_attr(__('Twitter')); ?>" /></a></li>
-						<li><a href="/decouverte-des-biens-communs/veille-collaborative/" target="_blank" title="<?php echo esc_attr(__('Padlet'));?>" data-toggle="tooltip"><img src="<?php echo openbootpress_get_resource_uri('public/images/network/padlet.png'); ?>" alt="<?php echo esc_attr(__('Padlet')); ?>" /></a></li>
-						<li><a href="http://splitr.it/?a=http%3A%2F%2Fwww.eccone.org%2Fcooperer-avec-ggouv&b=http%3A%2F%2Fggouv.fr%2Fgroups%2Fprofile%2F119877%2FEccone&configuration=Verticale" target="_blank" title="<?php echo esc_attr(__('GGouv'));?>" data-toggle="tooltip"><img src="<?php echo openbootpress_get_resource_uri('public/images/network/ggouv.png'); ?>" alt="<?php echo esc_attr(__('GGouv')); ?>" /></a></li>
-						<li><a href="<?php bloginfo('rss2_url'); ?>" target="_blank" title="<?php echo esc_attr(__('Flux RSS des articles'));?>" data-toggle="tooltip"><img src="<?php echo openbootpress_get_resource_uri('public/images/network/rss.png'); ?>" alt="<?php echo esc_attr(__('RSS')); ?>" /></a></li>
+						<li><a href="https://www.facebook.com/eccone" target="_blank" title="<?php echo esc_attr(__('Page Facebook Eccone'));?>" data-toggle="tooltip"><span class="fa fa-facebook-official"></span></a></li>
+						<li><a href="https://twitter.com/eccone_org" target="_blank" title="<?php echo esc_attr(__('Twitter'));?>" data-toggle="tooltip"><span class="fa fa-twitter"></span></a></li>
+						<li><a href="<?php bloginfo('rss2_url'); ?>" target="_blank" title="<?php echo esc_attr(__('Flux RSS des articles'));?>" data-toggle="tooltip"><span class="fa fa-rss"></span></a></li>
 					</ul>
 				</div>
 				<h1><?php echo get_bloginfo('description', 'display'); ?></h1>

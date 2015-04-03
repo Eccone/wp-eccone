@@ -3,31 +3,119 @@
 		<div class="row">
 			<div class="col-lg-8 col-md-7 col-sm-5">
 				<div class="row">
-					<div class="col-lg-6">
-						<div class="flex-video widescreen"><iframe width="350" height="197" src="//www.youtube.com/embed/5-aHuUW2KAY" frameborder="0" allowfullscreen></iframe></div>
+					<div class="col-lg-6" style="text-align: center;">
+						<h3>
+							4 dates pour se lancer avant l'été !
+						</h3>
+						<img class="img-responsive" alt="Les Eccone Evènements pour soutenir la production local de biens communs numériques" src="<?php echo openbootpress_get_resource_uri('public/images/schema-eccone-website.png'); ?>" />
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6" style="padding-top: 20px;">
 						<p>
-							Eccone est un <strong>espace de création commune d'outils numériques</strong>
+							Le <strong>28 avril</strong> est le coup d'envoi de 4 dates pour vous soutenir dans la création
+							de vos outils numériques <strong>et le transformer en un commun</strong>
 						</p>
 						<p>
-							Nous animons un réseau d'acteurs locaux souhaitant coopérer ensemble pour produire des biens communs numériques :
-							connaissances, oeuvres d'art sur support numérique, création d'objets, de logiciels, ...
+							<strong>Les Eccone de Comptoir...</strong><br />
+							...découvrir et partager autour d'un sujet en lien avec les communs.
 						</p>
 						<p>
-							En mobilisant des ressources et en partant du besoin des acteurs locaux, nous oeuvrons pour favoriser l'émergence
-							des coopérations, des projets puis nous permettons la réalisation du premier pas.
+							<strong>Les Eccone Atelier...</strong><br />
+							...créer des nouvelles expériences collectives dans la réalisation des projets.
 						</p>
-						<p>
-							<a href="/qui-sommes-nous/" title="Eccone : qui sommes nous ?" class="btn btn-default">En savoir plus</a>
-							<a href="/newsletter/" title="S'abonner à la newsletter" class="btn btn-primary">La newsletter</a>
-						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<table class="table">
+							<tbody>
+								<tr class="active">
+									<td>Mardi 28 avril - soirée</td>
+									<td>Eccone de Comptoir</td>
+									<td>
+										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-1/" class="btn btn-primary">
+											<span class="glyphicon glyphicon-check"></span>
+											Détails et inscription
+										</a>
+										<a href="<?php bloginfo('url'); ?>/wp-content/uploads/2015/04/invitation.pdf" class="btn btn-default">
+											<span class="glyphicon glyphicon-file"></span>
+											L'invitation
+										</a>
+									</td>
+								</tr>
+								<tr class="active">
+									<td>Mardi 2 juin - soirée</td>
+									<td>Eccone de Comptoir</td>
+									<td><span class="font-style: italic;">à venir</span></td>
+								</tr>
+								<tr class="active">
+									<td>Samedi 27 juin</td>
+									<td>Eccone Atelier - Journée 1</td>
+									<td><span class="font-style: italic;">à venir</span></td>
+								</tr>
+								<tr class="active">
+									<td>Samedi 4 juillet</td>
+									<td>Eccone Atelier - Journée 2</td>
+									<td><span class="font-style: italic;">à venir</span></td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-5 col-sm-7 home-event-carousel">
 				<h2 style="color: #444; text-align:center;"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;Dernières actualités</h2>
 				<?php echo do_shortcode('[stic_slider]'); ?>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="eccone-howto">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7">
+				<h2>
+					<strong>NOTRE MISSION</strong>
+					<span class="fa fa-heart"></span>
+				</h2>
+				<div class="row">
+					<div class="col-lg-6">
+						<h3>Renforcer les coopérations</h3>
+						<p>
+							Par l'animation de nos rencontres, nous aidons à tisser des liens entre les communautés : informatiques, artistes, makers, ESS, ...
+						</p>
+					</div>
+					<div class="col-lg-6">
+						<h3>Activer la création</h3>
+						<p>
+							En mobilisant des ressources et en partant de vos besoins, nous oeuvrons pour favoriser l'émergence
+							de communautés de projet pour l'aider dans la réalisation du premier pas
+						</p>
+					</div>
+					<div class="col-lg-12">
+						<a href="/qui-sommes-nous/" title="Eccone : qui sommes nous ?" class="btn btn-default">En savoir plus</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-5">
+				<h2>
+					<strong>RESTONS EN CONTACT</strong>
+					<span class="fa fa-envelope"></span>
+					<span class="fa fa-facebook-official"></span>
+					<span class="fa fa-twitter"></span>
+				</h2>
+				<div class="row">
+					<div class="col-lg-12">
+						<p>
+							<a href="https://twitter.com/eccone_org" class="twitter-follow-button" data-show-count="false">Suivez @eccone_org</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+						</p>
+						<p>
+							<div class="fb-like" data-href="https://www.facebook.com/eccone" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+							<div class="fb-share-button" data-href="http://www.eccone.org" data-layout="button_count"></div>
+						</p>
+						<p><a href="/newsletter/" title="S'abonner à la newsletter" class="btn btn-default">S'abonner à la newsletter</a></p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
