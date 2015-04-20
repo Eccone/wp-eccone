@@ -78,3 +78,8 @@ Version:        0.1.0
 .interview-player>div {
 	float: none;
 }
+
+/* ASIDE */
+#sidebar-main aside {
+	padding: 12px;
+}
