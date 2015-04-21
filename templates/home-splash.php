@@ -46,7 +46,7 @@
 									<td>Mardi 2 juin - soirée</td>
 									<td>Eccone de Comptoir - spéciale projets</td>
 									<td>
-										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-1/" class="btn">
+										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-2/" class="btn btn-default">
 											<span class="glyphicon glyphicon-check"></span>
 											Détails et inscription
 										</a>
