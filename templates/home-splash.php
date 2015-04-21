@@ -44,8 +44,13 @@
 								</tr>
 								<tr class="active">
 									<td>Mardi 2 juin - soirée</td>
-									<td>Eccone de Comptoir</td>
-									<td><span class="font-style: italic;">à venir</span></td>
+									<td>Eccone de Comptoir - spéciale projets</td>
+									<td>
+										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-1/" class="btn">
+											<span class="glyphicon glyphicon-check"></span>
+											Détails et inscription
+										</a>
+									</td>
 								</tr>
 								<tr class="active">
 									<td>Samedi 27 juin</td>
