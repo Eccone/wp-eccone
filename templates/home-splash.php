@@ -32,13 +32,9 @@
 									<td>Mardi 28 avril - soirée</td>
 									<td>Eccone de Comptoir</td>
 									<td>
-										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-1/" class="btn btn-primary">
+										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-1/" class="btn btn-default">
 											<span class="glyphicon glyphicon-check"></span>
-											Détails et inscription
-										</a>
-										<a href="<?php bloginfo('url'); ?>/wp-content/uploads/2015/04/invitation.pdf" class="btn btn-default">
-											<span class="glyphicon glyphicon-file"></span>
-											L'invitation
+											Pour le souvenir...
 										</a>
 									</td>
 								</tr>
@@ -46,7 +42,7 @@
 									<td>Mardi 2 juin - soirée</td>
 									<td>Eccone de Comptoir - spéciale projets</td>
 									<td>
-										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-2/" class="btn btn-default">
+										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-2/" class="btn btn-primary">
 											<span class="glyphicon glyphicon-check"></span>
 											Détails et inscription
 										</a>
