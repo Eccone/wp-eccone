@@ -51,7 +51,7 @@ if (!is_single()) {
 				?>
 			</div><!-- .entry-summary -->
 			<?php else : ?>
-			<div class="entry-meta img-rounded pull-right holderjs">
+			<div class="entry-meta img-rounded holderjs">
 				<?php openbootpress_entry_meta(); ?>
 			</div>
 			<div class="entry-content">
