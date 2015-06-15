@@ -42,16 +42,21 @@
 									<td>Mardi 2 juin - soirée</td>
 									<td>Eccone de Comptoir - spéciale projets</td>
 									<td>
-										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-2/" class="btn btn-primary">
+										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-1/" class="btn btn-default">
 											<span class="glyphicon glyphicon-check"></span>
-											Détails et inscription
+											Pour le souvenir...
 										</a>
 									</td>
 								</tr>
 								<tr class="active">
 									<td>Samedi 27 juin</td>
 									<td>Eccone Atelier - Journée 1</td>
-									<td><span class="font-style: italic;">à venir</span></td>
+									<td>
+										<a href="<?php bloginfo('url')?>/events/leccone-atelier-1/ " class="btn btn-primary">
+											<span class="glyphicon glyphicon-check"></span>
+											Détails et inscription
+										</a>
+									</td>
 								</tr>
 								<tr class="active">
 									<td>Samedi 4 juillet</td>
@@ -97,12 +102,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-5">
+			<div class="col-lg-5" id="eccone-keepintouch">
 				<h2>
 					<strong>RESTONS EN CONTACT</strong>
-					<span class="fa fa-envelope"></span>
-					<span class="fa fa-facebook-official"></span>
-					<span class="fa fa-twitter"></span>
+					<a href="http://www.facebook.com/eccone"><span class="fa fa-facebook-official"></span></a>
+					<a href="https://twitter.com/eccone_org"><span class="fa fa-twitter"></span></a>
+					<a href="http://www.meetup.com/fr/Eccone-Toulouse"><span class="icon-obpress icon-obpress-meetup"></span></a>
 				</h2>
 				<div class="row">
 					<div class="col-lg-12">

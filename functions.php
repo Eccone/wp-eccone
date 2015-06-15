@@ -5,7 +5,7 @@
  * @var string
  * @since 1.1.1 Marge intérieure des asides de 12px
  */
-define('THEME_VERSION', '1.1.1');
+define('THEME_VERSION', '1.1.2');
 
 $eccone_box_prefix = 'ECCONE_BOX_';
 

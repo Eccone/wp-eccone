@@ -23,16 +23,26 @@ Version:        0.1.0
 .eccone-howto {
 	background-color: #E30976;
 	padding-top: 1em; padding-bottom: 1em;
-}
-.eccone-howto * {
 	color: #fff;
-	text-align: center;
+}
+.eccone-howto h3, 
+.eccone-howto h3, 
+.eccone-howto p,
+.eccone-howto div {
+	text-align: center;	
 }
 .eccone-howto h2 strong {
 	display: block;
 }
 .eccone-howto h2 .glyphicon, .eccone-howto h2 .fa {
 	font-size: 48px; display: inline-block; margin-top: 10px; margin-bottom: 10px;
+}
+
+.eccone-howto #eccone-keepintouch h2 a {
+	color: #fff;
+}
+.eccone-howto #eccone-keepintouch h2 a:hover > span {
+	color: #000; text-decoration: none;
 }
 
 /* ACCUEIL FOOTER */
