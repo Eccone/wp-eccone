@@ -61,7 +61,12 @@
 								<tr class="active">
 									<td>Samedi 4 juillet</td>
 									<td>Eccone Atelier - Journée 2</td>
-									<td><span class="font-style: italic;">à venir</span></td>
+									<td>
+										<a href="<?php bloginfo('url')?>/events/leccone-atelier-2/ " class="btn btn-primary">
+											<span class="glyphicon glyphicon-check"></span>
+											Détails et inscription
+										</a>
+									</td>
 								</tr>
 							</tbody>
 						</table>
