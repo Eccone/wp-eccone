@@ -3,68 +3,55 @@
 		<div class="row">
 			<div class="col-lg-8 col-md-7 col-sm-5">
 				<div class="row">
-					<div class="col-lg-6" style="text-align: center;">
+					<div class="col-lg-5" style="text-align: center;">
 						<h3>
-							4 dates pour se lancer avant l'été !
+							Eccone fera bientôt sa rentrée 2015/2016
 						</h3>
-						<img class="img-responsive" alt="Les Eccone Evènements pour soutenir la production local de biens communs numériques" src="<?php echo openbootpress_get_resource_uri('public/images/schema-eccone-website.png'); ?>" />
-					</div>
-					<div class="col-lg-6" style="padding-top: 20px;">
 						<p>
-							Le <strong>28 avril</strong> est le coup d'envoi de 4 dates pour vous soutenir dans la création
-							de vos outils numériques <strong>et le transformer en un commun</strong>
+							La saison n°2 d'Eccone a vu l'organisation de 4 évènements autour d'Eccone de comptoir et d'Eccone
+							Atelier pour soutenir la création de vos outils numériques <strong>et les transformer en un commun</strong>
 						</p>
 						<p>
-							<strong>Les Eccone de Comptoir...</strong><br />
-							...découvrir et partager autour d'un sujet en lien avec les communs.
-						</p>
-						<p>
-							<strong>Les Eccone Atelier...</strong><br />
-							...créer des nouvelles expériences collectives dans la réalisation des projets.
+							Nous vous tiendrons au courant du lancement de la saison 3 dès que nous aurons un peu avancée dessus.
+							N'hésitez pas à <a href="http://www.eccone.org/newsletter/">vous inscrire à notre lettre d'informations</a>
 						</p>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-lg-7" style="padding-top: 20px;">
 						<table class="table">
 							<tbody>
 								<tr class="active">
-									<td>Mardi 28 avril - soirée</td>
-									<td>Eccone de Comptoir</td>
+									<td><strong>Eccone de Comptoir</strong><br />C'était le mardi 28 avril 2015 en soirée</td>
 									<td>
-										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-1/" class="btn btn-default">
+										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-1/" class="btn btn-sm btn-default">
 											<span class="glyphicon glyphicon-check"></span>
 											Pour le souvenir...
 										</a>
 									</td>
 								</tr>
 								<tr class="active">
-									<td>Mardi 2 juin - soirée</td>
-									<td>Eccone de Comptoir - spéciale projets</td>
+									<td><strong>Eccone de Comptoir - spéciale projets</strong><br />C'était le mardi 2 juin 2015 en soirée</td>
 									<td>
-										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-1/" class="btn btn-default">
+										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-1/" class="btn btn-sm btn-default">
 											<span class="glyphicon glyphicon-check"></span>
 											Pour le souvenir...
 										</a>
 									</td>
 								</tr>
 								<tr class="active">
-									<td>Samedi 27 juin</td>
-									<td>Eccone Atelier - Journée 1</td>
+									<td><strong>Eccone Atelier - Journée 1</strong><br />C'était le samedi 27 juin 2015</td>
 									<td>
-										<a href="<?php bloginfo('url')?>/events/leccone-atelier-1/ " class="btn btn-primary">
+										<a href="<?php bloginfo('url')?>/events/leccone-atelier-1/ " class="btn btn-sm btn-default">
 											<span class="glyphicon glyphicon-check"></span>
-											Détails et inscription
+											Pour le souvenir...
 										</a>
 									</td>
 								</tr>
 								<tr class="active">
-									<td>Samedi 4 juillet</td>
-									<td>Eccone Atelier - Journée 2</td>
+									<td><strong>Eccone Atelier - Journée 2</strong><br />C'était le samedi 4 juillet 2015</td>
 									<td>
-										<a href="<?php bloginfo('url')?>/events/leccone-atelier-2/ " class="btn btn-primary">
+										<a href="<?php bloginfo('url')?>/events/leccone-atelier-2/ " class="btn btn-sm btn-default">
 											<span class="glyphicon glyphicon-check"></span>
-											Détails et inscription
+											Pour le souvenir...
 										</a>
 									</td>
 								</tr>
