@@ -2,63 +2,26 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-md-7 col-sm-5">
-				<div class="row">
-					<div class="col-lg-5" style="text-align: center;">
-						<h3>
-							Eccone fera bientôt sa rentrée 2015/2016
-						</h3>
-						<p>
-							La saison n°2 d'Eccone a vu l'organisation de 4 évènements autour d'Eccone de comptoir et d'Eccone
-							Atelier pour soutenir la création de vos outils numériques <strong>et les transformer en un commun</strong>
-						</p>
-						<p>
-							Nous vous tiendrons au courant du lancement de la saison 3 dès que nous aurons un peu avancée dessus.
-							N'hésitez pas à <a href="http://www.eccone.org/newsletter/">vous inscrire à notre lettre d'informations</a>
-						</p>
-					</div>
-					<div class="col-lg-7" style="padding-top: 20px;">
-						<table class="table">
-							<tbody>
-								<tr class="active">
-									<td><strong>Eccone de Comptoir</strong><br />C'était le mardi 28 avril 2015 en soirée</td>
-									<td>
-										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-1/" class="btn btn-sm btn-default">
-											<span class="glyphicon glyphicon-check"></span>
-											Pour le souvenir...
-										</a>
-									</td>
-								</tr>
-								<tr class="active">
-									<td><strong>Eccone de Comptoir - spéciale projets</strong><br />C'était le mardi 2 juin 2015 en soirée</td>
-									<td>
-										<a href="<?php bloginfo('url')?>/events/leccone-de-comptoir-1/" class="btn btn-sm btn-default">
-											<span class="glyphicon glyphicon-check"></span>
-											Pour le souvenir...
-										</a>
-									</td>
-								</tr>
-								<tr class="active">
-									<td><strong>Eccone Atelier - Journée 1</strong><br />C'était le samedi 27 juin 2015</td>
-									<td>
-										<a href="<?php bloginfo('url')?>/events/leccone-atelier-1/ " class="btn btn-sm btn-default">
-											<span class="glyphicon glyphicon-check"></span>
-											Pour le souvenir...
-										</a>
-									</td>
-								</tr>
-								<tr class="active">
-									<td><strong>Eccone Atelier - Journée 2</strong><br />C'était le samedi 4 juillet 2015</td>
-									<td>
-										<a href="<?php bloginfo('url')?>/events/leccone-atelier-2/ " class="btn btn-sm btn-default">
-											<span class="glyphicon glyphicon-check"></span>
-											Pour le souvenir...
-										</a>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
+				<h3>La pause !</h3>
+				<img style="margin: 0 10px 10px 0;" src="<?php echo openbootpress_get_resource_uri("public/images/home-event-standbye.jpg"); ?>" class="pull-left img-responsive" alt="Participants à un évènement Eccone autour d'un table" />
+				<p>
+					Après un 1er semestre 2015 chargé d'événements, de projets communs et de rencontres heureuses,
+					l'équipe vous informe que le dispositif Eccone est en standbye pour quelques temps.
+				</p>
+				<p>
+					Nous souhaitons en effet trouver de nouvelles ressources, nous ouvrir sur de nouveaux réseaux et
+					recharger nos batteries. Nous avons énormément appris grâce à tous ceux qui ont participé de près
+					ou de loin à nos événements. Nous réfléchissons actuellement à de nouvelles méthodologies,
+					de nouvelles formes de travail et nous nous questionnons sainement sur la forme et le fond du dispositif.
+					(Eccone est-il lui même un bien commun ?)
+				</p>
+				<p>
+					En attendant, nous avons le plaisir de vous inviter aux rencontres régulières organisées par
+					l'association Combustible, co-porteuse du projet Eccone.
+					Les « Apéros Combustible » sont l'occasion pour nous d'agrandir notre réseau et nous l’espérons,
+					créer de nouvelles dynamiques qui relanceront rapidement Eccone.
+				</p>
+				<p><a href="">Plus d'informations sur : http://combustible.fr/</a></p>
 			</div>
 			<div class="col-lg-4 col-md-5 col-sm-7 home-event-carousel">
 				<h2 style="color: #444; text-align:center;"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;Dernières actualités</h2>
