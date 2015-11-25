@@ -21,7 +21,7 @@
 					Les « Apéros Combustible » sont l'occasion pour nous d'agrandir notre réseau et nous l’espérons,
 					créer de nouvelles dynamiques qui relanceront rapidement Eccone.
 				</p>
-				<p><a href="">Plus d'informations sur : http://combustible.fr/</a></p>
+				<p><a href="http://combustible.fr">Plus d'informations sur : http://combustible.fr/</a></p>
 			</div>
 			<div class="col-lg-4 col-md-5 col-sm-7 home-event-carousel">
 				<h2 style="color: #444; text-align:center;"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;Dernières actualités</h2>
